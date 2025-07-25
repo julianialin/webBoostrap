@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profil Alin Juliani</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --pink-light: #fce4ec;
+      --pink-medium: #f8bbd0;
+      --pink-dark: #ec407a;
+      --text-dark: #333;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--pink-light);
+      color: var(--text-dark);
+    }
+
+    nav {
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar-brand {
+      color: var(--pink-dark);
+      font-weight: bold;
+    }
+
+   .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* untuk vertikal */
+  min-height: 100vh; /* biar setinggi viewport */
+  background: linear-gradient(to right, var(--pink-medium), var(--pink-light));
+  padding: 80px 20px;
+  text-align: center;
+  color: var(--text-dark);
+}
+
+.hero img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* jarak dari teks */
+}
+
+
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 30px;
+      color: var(--pink-dark);
+    }
+
+    .card {
+      border-radius: 1rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      border: none;
+    }
+
+    .list-group-item strong {
+      width: 150px;
+      display: inline-block;
+    }
+
+    .btn-outline-dark {
+      border-color: var(--pink-dark);
+      color: var(--pink-dark);
+    }
+
+    .btn-outline-dark:hover {
+      background-color: var(--pink-dark);
+      color: white;
+    }
+
+    footer {
+      background: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .card p {
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    .section-bg {
+      background-color: white;
+    }
+
+    .section-bg-light {
+      background-color: #fff0f6;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Alin Juliani</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="#biodata">Biodata</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pendidikan">Pendidikan</a></li>
+        <li class="nav-item"><a class="nav-link" href="#hobi">Hobi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="container">
+    <img src="ft2.jpg" alt="Foto Profil" />
+    <h2 class="mt-3">Alin Juliani</h2>
+    <p class="lead">Pelajar | Web Developer Pemula </p>
+    <a href="#tentang" class="btn btn-outline-dark mt-3">Lihat Profil</a>
+  </div>
+</section>
+
+<!-- Tentang Saya -->
+<section id="tentang" class="py-5 section-bg">
+  <div class="container">
+    <h2 class="text-center section-title">Tentang Saya</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4">
+        <img src="ft33.jpg" class="img-fluid rounded shadow" alt="Tentang Saya" />
+      </div>
+      <div class="col-md-6">
+        <p style="font-size: 1.1rem;">
+          Aku adalah Alin Juliani, mereka memanggilku Jull — gadis sederhana yang sedang menulis cerita kecilnya di halaman digital dunia.
+
+Dalam sunyi malam, aku sering memandangi layar kosong, lalu menorehkan baris-baris kode, serupa puisi diam yang membentuk warna, bentuk, dan fungsi.
+HTML, CSS, dan Bootstrap menjadi teman seperjalanan, saat aku belajar membangun mimpi dari garis-garis pixel yang aku susun dengan hati.
+
+ Aku tak hanya ingin membuat halaman web — aku ingin menciptakan ruang.
+Ruang yang nyaman untuk siapa pun yang berkunjung, ruang yang membuat orang merasa dilihat, dimengerti, dan dihargai.
+Desain bagiku adalah bahasa tanpa suara. Dan aku ingin berbicara lewat warna, tipografi, dan estetika.
+
+ Di balik semangat belajarku, ada cinta pada proses.
+Aku menikmati setiap kesalahan, setiap ulang, setiap revisi — karena dari situlah aku tumbuh.
+Aku tahu jalan ini tidak selalu mulus, tapi aku percaya: selama aku setia pada prosesnya, hasilnya akan indah pada waktunya.
+
+ Aku mungkin masih jauh dari kata "ahli",
+Tapi aku dekat dengan kata "berusaha", dan aku terus melangkah —
+Karena bagiku, setiap kode adalah bait puisi, dan setiap desain adalah lukisan hati.
+
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Biodata Lengkap -->
+<section id="biodata" class="py-5 section-bg-light">
+  <div class="container">
+    <h2 class="text-center section-title">Biodata Lengkap</h2>
+    <div class="card mx-auto p-4" style="max-width: 700px;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>Nama Lengkap:</strong> Alin Juliani</li>
+        <li class="list-group-item"><strong>Nama Panggilan:</strong> Ajull, Ain, Jull</li>
+        <li class="list-group-item"><strong>Tempat, Tanggal Lahir:</strong> Ciamis, 10 Juli 2008</li>
+        <li class="list-group-item"><strong>Jenis Kelamin:</strong> Perempuan</li>
+        <li class="list-group-item"><strong>Agama:</strong> Islam</li>
+        <li class="list-group-item"><strong>Alamat:</strong> Susuru RT/RW 08/06 Indragiri, Panawangan, Ciamis Jawa Barat</li>
+        <li class="list-group-item"><strong>Kewarganegaraan:</strong> Indonesia</li>
+        <li class="list-group-item"><strong>Status:</strong> Pelajar</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Pendidikan -->
+<section id="pendidikan" class="py-5 section-bg">
+  <div class="container">
+    <h2 class="text-center section-title">Riwayat Pendidikan</h2>
+    <div class="card mx-auto p-4" style="max-width: 700px;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>SD:</strong> SDN 1 Indragiri (2016 - 2021)</li>
+        <li class="list-group-item"><strong>SMP:</strong> SMPN 1 Panawangan (2021 - 2024)</li>
+        <li class="list-group-item"><strong>SMK:</strong> SMKN 1 Kawali (2024 - sekarang)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Hobi -->
+<section id="hobi" class="py-5 section-bg-light">
+  <div class="container">
+    <h2 class="text-center section-title">Hobi</h2>
+    <div class="row text-center">
+      <div class="col-md-3">
+        <div class="card p-3"><p>🏐 Volly Ball</p></div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3"><p>🎧 Mendengarkan Musik</p></div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3"><p>🍳 Memasak</p></div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3"><p>🛏 Rebahan</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cerminan Diriku -->
+<section id="keahlian" class="py-5" style="background-color: #ffe6f0;">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: #d63384;">🪞 Cerminan Diriku</h2>
+    <p class="text-center mb-5" style="font-style: italic; color: #6d1b3b;">
+      Apa yang bisa kulakukan bukan sekadar barisan skill,<br>
+      tapi cerminan dari siapa aku sebenarnya.<br>
+      Aku menyukai belajar, mendesain, menulis, dan merangkai ide.<br>
+      Karena lewat apa yang bisa kulakukan,<br>
+      aku belajar mengenal diriku… dan perlahan mencintainya.
+    </p>
+</section>
+
+<!-- Kontak -->
+<section id="kontak" class="py-5 section-bg-light">
+  <div class="container">
+    <h2 class="text-center section-title">Kontak Saya</h2>
+    <div class="card mx-auto p-4" style="max-width: 600px;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>Email:</strong> julianialin053@gmail.com</li>
+        <li class="list-group-item"><strong>Telepon:</strong> 0813-1742-4841</li>
+        <li class="list-group-item"><strong>Instagram:</strong> alinjuliani123</li>
+        <li class="list-group-item"><strong>Tiktok:</strong> @ajulll23</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Alin Juliani | Dibuat dengan hati berwarna pink 💖
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
